@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div id="homeScreen" data-role="page" data-theme="e">
+
+	<div data-role="panel" id="menuPanel" data-display="overlay" data-theme="e">
+		<ul data-role="listview">
+            <li class="profile"><a href="#" title="Profile">Profile</a></li>
+            <li class="setting"><a href="#" title="Setting">Setting</a></li>
+            <li class="logout"><a href="#" title="Logout">Logout</a></li>
+        </ul>
+ 
+	</div><!-- /panel -->
+
+
+	<div data-role="header" data-position="fixed" data-theme="e">		
+									
+			<p style="text-align:left">
+				&nbsp;
+				<a href="#menuPanel"><img src="assets/menu.jpg" height="4%" width="4%"/></a>
+				<font face="impact" color="FB1985" size="20">&nbsp;Voice Jot</font>
+			</p>			
+	</div>
+
+	<div data-role="content" data-theme="e">
+		<input type="search" name="searchTranscript" id="Transcript" value="" placeholder="Search transcripts"/>
+		<br>
+		<ul data-role="listview">
+			<li> <a href="#">Interview with John</a></li>
+			<li> <a href="#">Interview with Sam</a></li>
+			<li> <a href="#">Interview with Koty</a></li>
+		</ul>
+	</div>
+	
+	<div data-role="footer" data-position="fixed" data-theme="e">
+	
+		<p style="text-align:right">
+			<a href="#"><img src="assets/add.jpg" height="4%" width="4%"/></a>
+			&nbsp;&nbsp;
+		</p>
+	
+	</div>
+	
+	
+</div><!-- /page -->
+ 
+</body>
+</html>
+

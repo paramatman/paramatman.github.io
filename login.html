@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div id="loginPage" data-role="page" data-theme="e">
+
+	<div data-role="content">
+		<br>
+		<br>
+		<p style="text-align:center">
+			<font face="impact" color="FB1985" size="20">Voice Jot</font>
+		</p>
+		<p style="text-align:center">
+			<img height="20%" width="20%" src="assets/logo.jpg">
+		</p>
+		<form id="loginForm" method="post">
+			<label for="name">Email:</label>
+			<input type="email" id="email" name="email" placeholder="Email"/>
+			<label for="name">Password:</label>
+			<input type="password"/ id="password" name="password" placeholder="Password"/>
+			<br>
+			<input type="submit" value="Sign In" onclick="authenticateUser()"/>
+			<input type="button" value="Sign Up" onclick="changePage('register.html')"/>
+		</form> 
+	</div>
+	
+</div><!-- /page -->
+
+</body>
+</html>
+
