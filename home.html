@@ -18,16 +18,16 @@
 									
 			<p style="text-align:left">
 				&nbsp;
-				<a href="#menuPanel"><img src="assets/menu.jpg" height="5%" width="5%"/></a>
-				<font face="impact" color="FB1985" size="20">&nbsp;Voice Jot</font>
+				<a href="#menuPanel" data-role="button" data-icon="bars">&nbsp;</a>
+				<font face="impact" color="FB1985" size="16">&nbsp;Voice Jot</font>
 			</p>			
 	</div>
 
-	<div data-role="content" data-theme="e">
+	<div data-role="content" data-theme="a">
 		<input type="search" name="searchTranscript" id="Transcript" value="" placeholder="Search transcripts"/>
 		<br>
 		<ul data-role="listview">
-			<li> <a href="#">Interview with John</a></li>
+			<li> <a href="#" onclick="changePage('transcript.html')">Interview with John</a></li>
 			<li> <a href="#">Interview with Sam</a></li>
 			<li> <a href="#">Interview with Koty</a></li>
 		</ul>
